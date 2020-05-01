@@ -10,6 +10,7 @@ p {
 
 header#cabecalho {
     border-bottom: 1px rgb(96, 96, 96) solid;
+    text-align: center;
 }
 
 header#cabecalho h1 {
@@ -22,6 +23,12 @@ header#cabecalho h2 {
     color: rgb(136, 136, 136);
     font-size: 20pt;
     margin-top: 0px;
+}
+
+img {
+    float: right;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 main {
