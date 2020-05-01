@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(96, 96, 96);
+    background-color: rgb(30, 49, 82);
 }
 
 p {
@@ -9,13 +9,13 @@ p {
 }
 
 header#cabecalho {
-    border-bottom: 1px rgb(96, 96, 96) solid;
+    border-bottom: 1px rgb(30, 49, 82) solid;
     text-align: center;
 }
 
 header#cabecalho h1 {
     font-size: 30pt;
-    color: rgb(96, 96, 96);
+    color: rgb(30, 49, 82);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
     margin-bottom: 0px; 
 }
@@ -25,10 +25,31 @@ header#cabecalho h2 {
     margin-top: 0px;
 }
 
-img {
-    float: right;
+figure.foto-legenda {
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+figure.foto-legenda img {
     width: 100%;
-    margin-bottom: 20px;
+}
+
+figure.foto-legenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding: 120px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption {
+    opacity: 1;
 }
 
 main {
@@ -42,22 +63,22 @@ main {
 
 section#corpo {
     display: block;
-	border-right: 1px solid rgb(96, 96, 96);
+	border-right: 1px solid rgb(30, 49, 82);
     padding-right: 15px;
-    border-left: 1px solid rgb(96, 96, 96);
+    border-left: 1px solid rgb(30, 49, 82);
     padding-left: 15px;
 }
 
 article#noticia-principal h2 {
     font-size: 15pt;
-    color: rgb(96, 96, 96);
+    color: rgb(30, 49, 82);
     background-color: rgb(221, 221, 221);
     padding: 5px 0px 5px 10px;
     margin: 10px 0px 10px 0px;
 }
 
 a {
-    color: rgb(96, 96, 96);
+    color: rgb(30, 49, 82);
     text-decoration: none;
 }
 
@@ -66,7 +87,7 @@ a:hover {
 }
 
 footer#rodape {
-    border-top: 1px solid rgb(96, 96, 96);
+    border-top: 1px solid rgb(30, 49, 82);
     font-style: italic;
 }
 
